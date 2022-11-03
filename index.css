@@ -1,0 +1,48 @@
+:root{
+    --primary:#D5E6FF;
+    --primary-text-color:#0053CC;
+    --secondary:#FFE6DB;
+      --secondary-text-color:#E14400;
+  }
+  body {
+    font-family: "Roboto Mono", monospace;
+   
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  
+    align-items: center;
+    padding: 0 16px;
+  }
+  .avatar {
+    width: 10rem;
+    border-radius: 50%;
+  margin:16px 16px;
+    object-fit:fill;
+  }
+  
+  a {
+    display: block;
+    border: none;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    width: 100%;
+    text-align:center;
+    text-decoration:none;
+  }
+  a.primary{
+    background-color:var(--primary);
+    color:var(--primary-text-color);
+  }
+  
+  a.secondary{
+    background-color:var(--secondary);
+    color:var(--secondary-text-color);
+  }
+  
+  
