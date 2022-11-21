@@ -9,7 +9,7 @@ name: deploy-preview
 # events but only for the vercel-dev branch
 on:
   push:
-    branches: [ codecanyon ]
+    branches: [ main ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
