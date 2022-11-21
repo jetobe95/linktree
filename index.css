@@ -45,6 +45,7 @@ a {
 }
 
 a.primary {
+  
   background-color: var(--primary);
   color: var(--primary-text-color);
 }
